@@ -21,3 +21,23 @@ function updateTime() {
 
 updateTime()
 setInterval(updateTime, 1000) // Update every second
+
+const whatPlayButton = document.querySelector('#what')
+const whatAudioPlayer = document.querySelector('#whatAudioPlayer')
+const veryPlayButton = document.querySelector('#very')
+const veryAudioPlayer = document.querySelector('#varyAudioPlayer')
+
+whatPlayButton.addEventListener('click', () => {
+	if (whatAudioPlayer.paused) {
+		whatAudioPlayer.play()
+	} else {
+		whatAudioPlayer.pause()
+	}
+})
+veryPlayButton.addEventListener('click', () => {
+	if (veryAudioPlayer.paused) {
+		veryAudioPlayer.play()
+	} else {
+		veryAudioPlayer.pause()
+	}
+})
