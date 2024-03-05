@@ -1,0 +1,23 @@
+body,
+html {
+	height: 100%;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Arial', sans-serif;
+}
+
+#timeContainer {
+	font-size: 24px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.test {
+	background-color: #4caf50; /* Green background */
+	color: white;
+	padding: 15px;
+	margin: 15px 0;
+	text-align: center;
+}
